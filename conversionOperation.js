@@ -30,23 +30,54 @@
 // console.log(typeof InValueNumber5);
 // console.log(InValueNumber5);  // it will give 0 because false is treated as 0 in number conversion
 
-let IsLoggedIn = 1
-let booleanIsLoggedIn = Boolean(IsLoggedIn)   // it will give true because 1 is treated as true in boolean conversion
-console.log(booleanIsLoggedIn);
+// let IsLoggedIn = 1
+// let booleanIsLoggedIn = Boolean(IsLoggedIn)   // it will give true because 1 is treated as true in boolean conversion
+// console.log(booleanIsLoggedIn);
 
-let IsLoggedIn1 = 0
-let booleanIsLoggedIn1 = Boolean(IsLoggedIn1)  // it will give false because 0 is treated as false in boolean conversion
-console.log(booleanIsLoggedIn1);
+// let IsLoggedIn1 = 0
+// let booleanIsLoggedIn1 = Boolean(IsLoggedIn1)  // it will give false because 0 is treated as false in boolean conversion
+// console.log(booleanIsLoggedIn1);
 
-let IsLoggedIn2 = "Vikalp"
-let booleanIsLoggedIn2 = Boolean(IsLoggedIn2) // it will give true because non-empty string is treated as true in boolean conversion
-console.log(booleanIsLoggedIn2);
+// let IsLoggedIn2 = "Vikalp"
+// let booleanIsLoggedIn2 = Boolean(IsLoggedIn2) // it will give true because non-empty string is treated as true in boolean conversion
+// console.log(booleanIsLoggedIn2);
 
-let IsLoggedIn3 = ""
-let booleanIsLoggedIn3 = Boolean(IsLoggedIn3) // it will give false because empty string is treated as false in boolean conversion
-console.log(booleanIsLoggedIn3);
+// let IsLoggedIn3 = ""
+// let booleanIsLoggedIn3 = Boolean(IsLoggedIn3) // it will give false because empty string is treated as false in boolean conversion
+// console.log(booleanIsLoggedIn3);
 
-let randomValue = 17
-let stringNumber = String(randomValue)  // it will give "17" because it is already a string
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let randomValue = 17
+// let stringNumber = String(randomValue)  // it will give "17" because it is already a string
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// Operations //
+
+// let value = 17
+// let negValue = -value
+// console.log(negValue);  // it will give -17 because it is negating the value
+
+// let str1 = "Hello"
+// let str2 = " Enedavour"
+// console.log(str1 + str2);
+
+// console.log("1" + 2);
+// console.log("1" - 2); //how
+// console.log("1" * 2); //how
+// console.log("1" / 2 + 3); //reading left to right
+
+//Special Cases (just to remember)
+// console.log(true);
+// console.log(+true);
+// console.log(+""); //no sense
+
+// let num1, num2, num3
+// num1 = num2 = num3 = 2 + 2
+// console.log(num1);
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);  // Study postfix
+let gameCounter1 = 100
+++gameCounter1
+console.log(gameCounter1);  // Study prefix
