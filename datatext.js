@@ -13,7 +13,7 @@ const id2 = Symbol("id");
 console.log(id1 === id2); // it will give false because each symbol is unique even if they have the same description
 //7. BigInt
 
-// ------------------------------------:Non-Primitives :------------------------------------
+// ------------------------------------:Non-Primitives (Reference Type) :------------------------------------
 // Arrays
 //Example of Array
 const arr = [1, 2, 3, 4, 5];
