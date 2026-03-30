@@ -11,10 +11,13 @@ let age = 21
 let isloggedIn = true
 
 // number => 2^53
+// string => "vikalp" or 'vikalp' or `vikalp` (backticks are used for interpolation)
 // bigint => use in apps like fb, insta, stock market
 //null = standalone value
 // undefined (mostly will see)
 // symbol => use to find uniqueness
+//boolean => true or false
+
 
 console.log(typeof undefined); //undefined
 console.log(typeof null); //object (Because it is either defect or this is the way)
